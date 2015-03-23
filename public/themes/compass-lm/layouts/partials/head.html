@@ -1,0 +1,25 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+
+  <link rel="apple-touch-icon" href="{{ .Site.Params.logo }}"/>
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ .Site.BaseUrl }}/favicon.ico" />
+
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/main.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="description" content="{{ .Site.Params.tagline }}"/>
+
+  <meta property="og:title" content="{{ .Site.Params.tagline }}"/>
+  <meta property="og:url" content="{{ .Site.BaseUrl }}"/>
+  <meta property="og:image" content="{{ .Site.BaseUrl }}/{{ .Site.Params.logo }}"/>
+  <meta property="og:description" content="{{ .Site.Params.description }}"/>
+  <meta property="og:site_name" content="{{ .Site.Params.tagline }}">
+
+
+  {{ partial "analytics.html" . }}
+</head>
