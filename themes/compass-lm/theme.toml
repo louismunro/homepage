@@ -1,6 +1,0 @@
-author = "Louis Munro"
-description = "A Port of Eduardo Rubio's \"Compass\" for hugo"
-license = "MIT"
-name = "compass-lm"
-source_repo = ""
-tags = ["Categories", "tags"]

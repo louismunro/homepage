@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on Louis Munro </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://louismunro.com/index.xml/</link>
+    <title>Louis Munro</title>
+    <link>http://louismunro.com/</link>
+    <description>Recent content on Louis Munro</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-    
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <atom:link href="http://louismunro.com/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
