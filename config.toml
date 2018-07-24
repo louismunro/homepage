@@ -1,4 +1,4 @@
-baseurl = "http://louismunro.com"
+baseurl = "https://louismunro.com"
 languageCode = "en-us"
 title = "Louis Munro"
 theme = "compass-lm"
